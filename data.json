@@ -1,0 +1,39 @@
+{
+  "datosPersonales": {
+    "nombre": "Carlos",
+    "apellido": "González",
+    "fechaNacimiento": "1985-04-23",
+    "direccion": "Avenida Siempre Viva 742",
+    "telefono": "123-456-7890",
+    "email": "carlos.gonzalez@email.com"
+  },
+  "familiares": [
+    {
+      "nombre": "Elena González",
+      "parentesco": "Madre",
+      "edad": 60
+    },
+    {
+      "nombre": "Roberto González",
+      "parentesco": "Padre",
+      "edad": 62
+    }
+  
+  ],
+  "condicionesSalud": [
+    {
+      "enfermedad": "Asma",
+      "tiempoEnfermedad": "10 años",
+      "detalle": "Uso de inhalador diario"
+    }
+  
+  ],
+  "internamientos": [
+    {
+      "fecha": "2021-08-15",
+      "centroMedico": "Clínica San José",
+      "diagnostico": "Fractura de brazo"
+    }
+   
+  ]
+}

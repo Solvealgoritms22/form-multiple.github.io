@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="formulario">
+
+    <!-- Página 1: Datos Personales -->
+    <div class="pagina" id="pagina1">
+        <h2>Datos Personales</h2>
+        <form id="formDatosPersonales">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br>
+
+            <!-- Agrega aquí más campos como fecha de nacimiento, dirección, etc. -->
+        </form>
+    </div>
+
+    <!-- Página 2: Familiares -->
+    <div class="pagina" id="pagina2">
+        <h2>Familiares</h2>
+        <form id="formFamiliares">
+            <!-- Campos para familiares, puedes agregarlos dinámicamente con JavaScript si es necesario -->
+            <label for="nombreFamiliar1">Nombre del Familiar:</label>
+            <input type="text" id="nombreFamiliar1" name="nombreFamiliar1"><br>
+
+            <label for="parentesco1">Parentesco:</label>
+            <input type="text" id="parentesco1" name="parentesco1"><br>
+
+            <label for="edadFamiliar1">Edad:</label>
+            <input type="number" id="edadFamiliar1" name="edadFamiliar1"><br>
+
+            <!-- Puedes agregar más campos para más familiares o usar JavaScript para añadirlos dinámicamente -->
+        </form>
+    </div>
+
+    <!-- Página 3: Condiciones Pre-Existentes de Salud -->
+    <div class="pagina" id="pagina3">
+        <h2>Condiciones Pre-Existentes de Salud</h2>
+        <form id="formCondicionesSalud">
+            <!-- Campos para condiciones de salud -->
+            <label for="condicion1">Enfermedad:</label>
+            <input type="text" id="condicion1" name="condicion1"><br>
+
+            <label for="tiempoEnfermedad1">Tiempo con la Enfermedad:</label>
+            <input type="text" id="tiempoEnfermedad1" name="tiempoEnfermedad1"><br>
+
+            <!-- Puedes agregar más campos para más condiciones -->
+        </form>
+    </div>
+
+    <!-- Página 4: Internamientos Realizados -->
+    <div class="pagina" id="pagina4">
+        <h2>Internamientos Realizados</h2>
+        <form id="formInternamientos">
+            <!-- Campos para internamientos -->
+            <label for="fechaInternamiento1">Fecha de Internamiento:</label>
+            <input type="date" id="fechaInternamiento1" name="fechaInternamiento1"><br>
+
+            <label for="centroMedico1">Centro Médico:</label>
+            <input type="text" id="centroMedico1" name="centroMedico1"><br>
+
+            <label for="diagnostico1">Diagnóstico:</label>
+            <input type="text" id="diagnostico1" name="diagnostico1"><br>
+
+            <!-- Puedes agregar más campos para más internamientos -->
+        </form>
+    </div>
+
+    <!-- Página 5: Presentación de Datos Registrados -->
+    <div class="pagina" id="pagina5">
+        <h2>Datos Registrados</h2>
+        <div id="resumenDatos">
+            <!-- Aquí se mostrarán los datos registrados -->
+        </div>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
